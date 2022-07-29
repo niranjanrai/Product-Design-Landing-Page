@@ -123,6 +123,7 @@ body {
 .hero-section{
   display: grid;
   grid-template-columns: 40fr 60fr;
+  margin-bottom: 10rem;
 }
 .hero-img{
   width: 100%;
@@ -166,4 +167,65 @@ body {
   background-color:#C91B28;
   padding: 1rem 1.5rem;
   border: transparent;
+  cursor: pointer;
+}
+
+
+/* Feature Section Style */
+
+.section-feature{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100rem;
+}
+.feature-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  width: 31rem;
+  height: 31rem;
+  border: 1px solid red;
+  background-color: #1E1E1E;
+}
+
+.icon{
+  font-size: 6rem;
+  color: #C91B28;
+}
+.feature-box h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.feature-box p{
+  font-size: 1.6rem;
+}
+
+.feature-box div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.feature-box div h4{
+  color: #C91B28;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.feature-box div .div-icon{
+  font-size: 1.5rem;
+  color: #C91B28;
+}
+
+.section-feature .box2{
+  background-color: #C91B28;
+}
+.box2 .icon{
+  color: #fff;
+}
+.box2 div h4 {
+  color: #fff;
+}
+.box2 div .div-icon{
+  color: #fff;
 }
