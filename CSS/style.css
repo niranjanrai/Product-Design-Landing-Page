@@ -279,3 +279,29 @@ body {
   font-size: 1.6rem;
   color: #e4e2e2;
 }
+/*  */
+/* Project Style */
+.project{
+  margin-bottom: 10rem;
+}
+.pro-title{
+  max-width: 97rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  
+}
+
+.project-text h3{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 1.6;
+  color: #e4e2e2;
+}
+.project-text p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #e4e2e2;
+}
