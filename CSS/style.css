@@ -16,6 +16,7 @@ body {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 /* ....................... */
@@ -428,4 +429,14 @@ margin-bottom: 5rem;
 }
 .footer-content .footer-ic:hover{
 color: #C91B28;
+}
+/* Section Float */
+.float{
+  height: 120vh;
+  width: 50%;
+  background-color: #181818;
+  position: absolute;
+  top: 8.7%;
+  left: 0px;
+  z-index: -1;
 }
