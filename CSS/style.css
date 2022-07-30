@@ -385,6 +385,7 @@ body {
 display: flex; 
 justify-content: center;
 align-items: center;
+margin-bottom: 5rem;
 }
 .bottom-nav div{
   display: flex;
@@ -398,4 +399,33 @@ align-items: center;
   color: #e4e2e2;
   font-weight: 500;
   cursor: pointer;
+}
+
+/*Footer style  */
+.btn-footer{
+  background-color: #1E1E1E;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.footer-content{
+  height: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 33rem;
+  align-items: center;
+}
+.footer-icon{
+  display: flex;
+  gap: 4rem;
+}
+.footer-content .footer-ic{
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+.footer-content .footer-ic:hover{
+color: #C91B28;
 }
